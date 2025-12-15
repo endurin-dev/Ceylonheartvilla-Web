@@ -9,8 +9,9 @@ export default function Navbar() {
   const [lastScrollY, setLastScrollY] = useState(0);
 
   const navLinks = [
+    { href: "/", label: "Home" },
     { href: "/accommodation", label: "Accommodation" },
-    { href: "/nearby-destinations", label: "Nearby Destinations" },
+    { href: "/nearby-destinations", label: "Attractions" },
     { href: "/yoga-space", label: "Yoga Space" },
     { href: "/activities", label: "Activities" },
     { href: "/contact-us", label: "Contact Us", highlight: true },
@@ -44,6 +45,13 @@ export default function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex items-center justify-between">
         {/* Logo */}
+        <div className="flex items-center gap-3">
+    <img
+      src="/images/logo.png"
+      alt="Logo"
+      className="h-10 w-auto object-contain"
+    />
+  </div>
         <Link href="/" className="flex items-center gap-3 group">
           <div className="relative">
             <svg

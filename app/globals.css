@@ -17,3 +17,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@layer utilities {
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .animate-slide {
+    animation: slide 35s linear infinite;
+  }
+
+  .animate-slide:hover {
+    animation-play-state: paused;
+  }
+}
