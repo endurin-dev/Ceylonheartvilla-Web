@@ -2,13 +2,15 @@
 import Image from 'next/image';
 
 const logos = [
-  '/partners/bluenote-logo.jpg',
+  '/partners/delux.jpg',
   '/partners/tripadvisor-logo.png',
-  '/partners/GetYourGuide_Logo.jpg',
+  '/partners/aitken.jpg',
   '/partners/Booking-logo.png',
   '/partners/Agoda_logo.png',
   '/partners/avawia_logo.webp',
-  '/partners/chenda_logo.jpeg',
+  '/partners/exotic.png',
+  '/partners/anex.jpg',
+  '/partners/ceylonmydream.png',
 ] as const;
 
 const allLogos = [...logos, ...logos];
@@ -19,7 +21,7 @@ export default function PartnersSlider() {
       <div className="max-w-7xl mx-auto px-6">
         {/* Title */}
         <p className="text-center text-gray-950 font-extrabold text-sm md:text-base tracking-widest mb-12 uppercase">
-  Trusted by Leading Brands Worldwide
+  Trusted by Partners
 </p>
 
         {/* Infinite Scroll */}

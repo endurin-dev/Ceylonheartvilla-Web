@@ -191,9 +191,9 @@ export default function ExperiencesPage() {
               Moments to Remember
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" alt="Traditional Sri Lankan cooking" className="rounded-3xl object-cover h-80 shadow-2xl hover:scale-105 transition-transform duration-700" />
-              <img src="https://images.unsplash.com/photo-1583417319072-4b3e5a4b2a3f?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" alt="Sunset at Peace Pagoda" className="rounded-3xl object-cover h-80 shadow-2xl hover:scale-105 transition-transform duration-700" />
-              <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" alt="Rooftop yoga session" className="rounded-3xl object-cover h-80 shadow-2xl hover:scale-105 transition-transform duration-700" />
+              <img src="https://images.unsplash.com/photo-1743525699873-b0f0911e3211?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNyaSUyMGxhbmthJTIwY29va2luZ3xlbnwwfDB8MHx8fDA%3D" alt="Traditional Sri Lankan cooking" className="rounded-3xl object-cover h-80 shadow-2xl hover:scale-105 transition-transform duration-700" />
+              <img src="https://images.unsplash.com/photo-1476611338391-6f395a0ebc7b?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sunset at Peace Pagoda" className="rounded-3xl object-cover h-80 shadow-2xl hover:scale-105 transition-transform duration-700" />
+              <img src="https://images.unsplash.com/photo-1599328580087-15c9dab481f3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Rooftop yoga session" className="rounded-3xl object-cover h-80 shadow-2xl hover:scale-105 transition-transform duration-700" />
             </div>
           </div>
         </div>
@@ -214,13 +214,13 @@ export default function ExperiencesPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-10 justify-center">
-            <a href="/contact" className="px-16 py-7 bg-amber-500 text-amber-950 rounded-full text-2xl font-semibold hover:bg-amber-400 transition-all shadow-2xl inline-flex items-center justify-center gap-5">
+            <a href="https://www.booking.com/Share-GP8uvT" className="px-16 py-7 bg-amber-500 text-amber-950 rounded-full text-2xl font-semibold hover:bg-amber-400 transition-all shadow-2xl inline-flex items-center justify-center gap-5">
               Book Your Stay
               <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </a>
-            <a href="/contact" className="px-16 py-7 border-2 border-amber-400 text-white rounded-full text-2xl font-medium hover:bg-amber-400/20 transition-all">
+            <a href="/contact-us" className="px-16 py-7 border-2 border-amber-400 text-white rounded-full text-2xl font-medium hover:bg-amber-400/20 transition-all">
               Inquire About Experiences
             </a>
           </div>

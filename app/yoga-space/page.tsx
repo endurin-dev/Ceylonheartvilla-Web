@@ -21,7 +21,7 @@ export default function YogaPage() {
             <h1 className="text-7xl md:text-9xl font-[var(--font-serif)] font-extralight tracking-tight mb-8 leading-tight">
               Butterfly Lounge<br />
               <span className="italic text-emerald-300">Yoga</span>
-              <span  className="italic text-emerald-300">Retreat</span>
+              <span className="italic text-emerald-300">Retreat</span>
             </h1>
             <p className="text-2xl md:text-3xl font-light tracking-wide max-w-4xl opacity-90 mb-12">
               Elevate your practice above the world, where sky, breath, and stillness become one
@@ -80,7 +80,7 @@ export default function YogaPage() {
               <div className="absolute -inset-6 bg-gradient-to-br from-emerald-300/50 to-teal-400/50 rounded-3xl blur-3xl opacity-40 group-hover:opacity-60 transition-opacity duration-700" />
               <div className="relative rounded-3xl overflow-hidden shadow-3xl">
                 <img
-                  src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&q=80"
+                  src="images/yoga01.webp"
                   alt="Peaceful rooftop yoga session at golden hour"
                   className="w-full h-[600px] md:h-[700px] object-cover transform group-hover:scale-110 transition-transform duration-1000"
                 />
@@ -98,9 +98,7 @@ export default function YogaPage() {
                 <p className="text-sm uppercase tracking-wider text-gray-700">To All Yogis</p>
               </div>
 
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white/90 backdrop-blur-md px-10 py-6 rounded-full shadow-2xl text-center">
-                <p className="text-lg font-semibold text-emerald-900">Daily Sunrise to Sunset</p>
-              </div>
+             
             </div>
 
             {/* Right: Extended Content */}
@@ -162,8 +160,8 @@ export default function YogaPage() {
         </div>
       </section>
 
-      {/* Enhanced CTA */}
-      <section className="py-40 bg-gradient-to-b from-emerald-950 to-teal-950 text-white relative overflow-hidden">
+      {/* Enhanced CTA - Fixed bottom padding to prevent gap before footer */}
+      <section className="py-40 pb-20 bg-gradient-to-b from-emerald-950 to-teal-950 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(52,211,153,0.4)_0%,transparent_70%)]" />
         </div>
@@ -191,13 +189,13 @@ export default function YogaPage() {
           </div>
 
           <div className="mt-16 flex flex-col sm:flex-row gap-8 justify-center">
-            <a href="/contact" className="px-16 py-7 bg-emerald-600 text-white rounded-full text-2xl font-medium hover:bg-emerald-500 transition-all shadow-2xl inline-flex items-center justify-center gap-5">
+            <a href="https://www.booking.com/Share-GP8uvT" className="px-16 py-7 bg-emerald-600 text-white rounded-full text-2xl font-medium hover:bg-emerald-500 transition-all shadow-2xl inline-flex items-center justify-center gap-5">
               Reserve the Space
               <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </a>
-            <a href="/contact" className="px-16 py-7 border-2 border-emerald-400 text-white rounded-full text-2xl font-medium hover:bg-emerald-400/20 transition-all">
+            <a href="/contact-us" className="px-16 py-7 border-2 border-emerald-400 text-white rounded-full text-2xl font-medium hover:bg-emerald-400/20 transition-all">
               Inquire Now
             </a>
           </div>

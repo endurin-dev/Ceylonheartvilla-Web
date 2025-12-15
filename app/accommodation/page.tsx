@@ -220,7 +220,7 @@ export default function AccommodationPage() {
     </p>
     <div className="flex flex-col sm:flex-row gap-8 justify-center">
       <a 
-        href="/contact" 
+        href="/contact-us" 
         className="px-14 py-6 bg-teal-600 text-white rounded-full text-xl font-medium hover:bg-teal-700 transition-all shadow-2xl inline-flex items-center justify-center gap-4"
       >
         Inquire Now
@@ -229,7 +229,7 @@ export default function AccommodationPage() {
         </svg>
       </a>
       <a 
-        href="/rates" 
+        href="https://www.booking.com/Share-GP8uvT" 
         className="px-14 py-6 border-2 border-teal-600 text-teal-600 rounded-full text-xl font-medium hover:bg-teal-50 transition-all"
       >
         View Rates & Availability

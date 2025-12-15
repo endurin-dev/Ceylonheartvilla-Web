@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Footer from "@/components/PartnersSlider";
 import PartnersSlider from "@/components/PartnersSlider";
 
 export default function Home() {
@@ -15,8 +14,8 @@ export default function Home() {
     }}
   />
   
-  {/* Dark Overlay for Elegance */}
-  <div className="absolute inset-0 bg-black/65" />
+  {/* Reduced Dark Overlay – lighter for better visibility */}
+  <div className="absolute inset-0 bg-black/40" />
   
   {/* Subtle Gold Texture Overlay */}
   <div 
@@ -402,12 +401,17 @@ export default function Home() {
           <p className="text-teal-100 mb-6 leading-relaxed">
             Immerse yourself in the perfect blend of natural beauty, cultural immersion, and refined comfort.
           </p>
-          <button className="bg-white text-teal-900 px-8 py-4 rounded-full font-medium hover:bg-amber-50 hover:shadow-lg transition-all duration-300 inline-flex items-center gap-2 group">
-            Book Your Stay
-            <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-            </svg>
-          </button>
+         <a
+  href="https://www.booking.com/Share-TO7tdC"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-white text-teal-900 px-8 py-4 rounded-full font-medium hover:bg-amber-50 hover:shadow-lg transition-all duration-300 inline-flex items-center gap-2 group"
+>
+  Book Your Stay
+  <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+  </svg>
+</a>
         </div>
       </div>
     </div>
@@ -435,9 +439,9 @@ export default function Home() {
       </div>
       
       <h2 className="text-5xl md:text-6xl font-[var(--font-serif)] font-light text-teal-950 leading-tight mb-6">
-        Rooftop Yoga
+        Butterfly Lounge
         <br />
-        <span className="italic text-emerald-700">Sanctuary</span>
+        <span className="italic text-emerald-700">YogaRetreat</span>
       </h2>
       
       <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
@@ -598,55 +602,88 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Wildlife Cards Grid - Made smaller */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          <div className="p-4 bg-gradient-to-br from-teal-50 to-white rounded-2xl border border-teal-100/50 shadow-sm hover:shadow-md transition-shadow">
-            <div className="w-10 h-10 rounded-lg bg-teal-100 flex items-center justify-center mb-3 overflow-hidden">
-              <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/145284511/1200" alt="Crested Hawk Eagle" className="w-full h-full object-cover" />
+        {/* Wildlife Cards Grid - Larger animal photos */}
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="p-6 bg-gradient-to-br from-teal-50 to-white rounded-3xl border border-teal-100/50 shadow-sm hover:shadow-lg transition-shadow duration-300">
+            <div className="w-full h-32 mb-4 rounded-2xl overflow-hidden shadow-md">
+              <img 
+                src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/145284511/1200" 
+                alt="Crested Hawk Eagle" 
+                className="w-full h-full object-cover" 
+              />
             </div>
-            <p className="font-semibold text-gray-900 text-xs mb-1">Crested Hawk Eagle</p>
-            <p className="text-xs text-gray-600 leading-tight">
+            <p className="font-semibold text-gray-900 text-sm">Crested Hawk Eagle</p>
+            <p className="text-xs text-gray-600 mt-1 leading-tight">
               Majestic raptor soaring above
             </p>
           </div>
 
-          <div className="p-4 bg-gradient-to-br from-emerald-50 to-white rounded-2xl border border-emerald-100/50 shadow-sm hover:shadow-md transition-shadow">
-            <div className="w-10 h-10 rounded-lg bg-emerald-100 flex items-center justify-center mb-3 overflow-hidden">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Peacock_Plumage.jpg" alt="Peacock" className="w-full h-full object-cover" />
+          <div className="p-6 bg-gradient-to-br from-emerald-50 to-white rounded-3xl border border-emerald-100/50 shadow-sm hover:shadow-lg transition-shadow duration-300">
+            <div className="w-full h-32 mb-4 rounded-2xl overflow-hidden shadow-md">
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Peacock_Plumage.jpg" 
+                alt="Peacock" 
+                className="w-full h-full object-cover" 
+              />
             </div>
-            <p className="font-semibold text-gray-900 text-xs mb-1">Peacock</p>
-            <p className="text-xs text-gray-600 leading-tight">
+            <p className="font-semibold text-gray-900 text-sm">Peacock</p>
+            <p className="text-xs text-gray-600 mt-1 leading-tight">
               Vibrant displays in trees
             </p>
           </div>
 
-          <div className="p-4 bg-gradient-to-br from-green-50 to-white rounded-2xl border border-green-100/50 shadow-sm hover:shadow-md transition-shadow">
-            <div className="w-10 h-10 rounded-lg bg-green-100 flex items-center justify-center mb-3 overflow-hidden">
-              <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1000,h_666/https://neprimateconservancy.org/wp-content/uploads/2021/12/purple-faced-langur-iStock-512335336-resize.jpg" alt="Black-faced Leaf Monkey" className="w-full h-full object-cover" />
+          <div className="p-6 bg-gradient-to-br from-green-50 to-white rounded-3xl border border-green-100/50 shadow-sm hover:shadow-lg transition-shadow duration-300">
+            <div className="w-full h-32 mb-4 rounded-2xl overflow-hidden shadow-md">
+              <img 
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1000,h_666/https://neprimateconservancy.org/wp-content/uploads/2021/12/purple-faced-langur-iStock-512335336-resize.jpg" 
+                alt="Black-faced Leaf Monkey" 
+                className="w-full h-full object-cover" 
+              />
             </div>
-            <p className="font-semibold text-gray-900 text-xs mb-1">Black-faced Leaf Monkey</p>
-            <p className="text-xs text-gray-600 leading-tight">
+            <p className="font-semibold text-gray-900 text-sm">Black-faced Leaf Monkey</p>
+            <p className="text-xs text-gray-600 mt-1 leading-tight">
               Playful in the canopy
             </p>
           </div>
 
-          <div className="p-4 bg-gradient-to-br from-blue-50 to-white rounded-2xl border border-blue-100/50 shadow-sm hover:shadow-md transition-shadow">
-            <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center mb-3 overflow-hidden">
-              <img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/133740231/1200" alt="Paradise Flycatcher" className="w-full h-full object-cover" />
+          <div className="p-6 bg-gradient-to-br from-blue-50 to-white rounded-3xl border border-blue-100/50 shadow-sm hover:shadow-lg transition-shadow duration-300">
+            <div className="w-full h-32 mb-4 rounded-2xl overflow-hidden shadow-md">
+              <img 
+                src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/133740231/1200" 
+                alt="Paradise Flycatcher" 
+                className="w-full h-full object-cover" 
+              />
             </div>
-            <p className="font-semibold text-gray-900 text-xs mb-1">Paradise Flycatcher</p>
-            <p className="text-xs text-gray-600 leading-tight">
+            <p className="font-semibold text-gray-900 text-sm">Paradise Flycatcher</p>
+            <p className="text-xs text-gray-600 mt-1 leading-tight">
               Elegant flowing tail
             </p>
           </div>
 
-          <div className="p-4 bg-gradient-to-br from-lime-50 to-white rounded-2xl border border-lime-100/50 shadow-sm hover:shadow-md transition-shadow md:col-span-1 col-span-2">
-            <div className="w-10 h-10 rounded-lg bg-lime-100 flex items-center justify-center mb-3 overflow-hidden">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Treron_vernans_male_-_Kent_Ridge_Park.jpg" alt="Green Pigeon" className="w-full h-full object-cover" />
+          <div className="p-6 bg-gradient-to-br from-lime-50 to-white rounded-3xl border border-lime-100/50 shadow-sm hover:shadow-lg transition-shadow duration-300 md:col-span-1 col-span-2">
+            <div className="w-full h-32 mb-4 rounded-2xl overflow-hidden shadow-md">
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Treron_vernans_male_-_Kent_Ridge_Park.jpg" 
+                alt="Green Pigeon" 
+                className="w-full h-full object-cover" 
+              />
             </div>
-            <p className="font-semibold text-gray-900 text-xs mb-1">Green Pigeon</p>
-            <p className="text-xs text-gray-600 leading-tight">
+            <p className="font-semibold text-gray-900 text-sm">Green Pigeon</p>
+            <p className="text-xs text-gray-600 mt-1 leading-tight">
               Bright green in foliage
+            </p>
+          </div>
+          <div className="p-6 bg-gradient-to-br from-lime-50 to-white rounded-3xl border border-lime-100/50 shadow-sm hover:shadow-lg transition-shadow duration-300 md:col-span-1 col-span-2">
+            <div className="w-full h-32 mb-4 rounded-2xl overflow-hidden shadow-md">
+              <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/1/17/DuculaAenea.JPG" 
+                alt="Green imperial pigeon" 
+                className="w-full h-full object-cover" 
+              />
+            </div>
+            <p className="font-semibold text-gray-900 text-sm">Green imperial pigeon</p>
+            <p className="text-xs text-gray-600 mt-1 leading-tight">
+              Greenish unique pigeon breed
             </p>
           </div>
         </div>
@@ -667,7 +704,7 @@ export default function Home() {
         {/* Floating Badge */}
         <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl border border-teal-100">
           <div className="text-center">
-            <p className="text-3xl font-[var(--font-serif)] font-light text-teal-700 mb-1">🦜</p>
+            <p className="text-3xl font-[var(--font-serif)] font-light text-teal-700 mb-1">Wildlife Views</p>
             <p className="text-xs uppercase tracking-wider text-gray-600">Wildlife Views</p>
           </div>
         </div>
@@ -675,8 +712,6 @@ export default function Home() {
     </div>
   </div>
 </section>
-
-
 
 <div className="relative py-20 bg-gradient-to-b from-white to-teal-50/40 overflow-hidden">
   <div className="max-w-7xl mx-auto px-6">
@@ -720,7 +755,7 @@ export default function Home() {
         },
         {
           title: "Laundry Service",
-          label: "Included",
+          label: "Self Service",
           desc: "Wash, dry, and fold service for a carefree stay.",
           icon: (
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
@@ -797,8 +832,7 @@ export default function Home() {
           </h4>
           <p className="mt-3 text-neutral-600 max-w-3xl">
             Fully equipped open-plan kitchen with premium cookware, gas stove,
-            full-size fridge, blender, rice cooker, and dining essentials —
-            perfect for home-style or chef-prepared meals.
+            full-size fridge, blender, rice cooker, and dining essentials perfect for home-style or chef-prepared meals.
           </p>
         </div>
       </div>
@@ -807,8 +841,113 @@ export default function Home() {
   </div>
 </div>
 
+<section className="relative py-10 bg-gradient-to-b from-teal-50/30 via-white to-emerald-50/30 overflow-hidden font-[var(--font-sans)]">
+  
+  {/* Decorative Background Elements */}
+  <div className="absolute top-0 left-1/4 w-96 h-96 bg-teal-200/20 rounded-full blur-3xl" />
+  <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-emerald-200/20 rounded-full blur-3xl" />
+  
+  <div className="max-w-7xl mx-auto px-6 relative z-10">
 
+    {/* SECTION HEADER */}
+    <div className="text-center mb-16">
+      <div className="inline-flex items-center gap-3 mb-6">
+        <div className="h-px w-12 bg-gradient-to-r from-transparent to-teal-300" />
+        <span className="text-xs uppercase tracking-[0.4em] text-teal-600 font-semibold">
+          Guest Experiences
+        </span>
+        <div className="h-px w-12 bg-gradient-to-l from-transparent to-teal-300" />
+      </div>
+      
+      <h2 className="text-5xl md:text-6xl font-[var(--font-serif)] font-light text-teal-950 leading-tight mb-6">
+        What Our Guests
+        <br />
+        <span className="italic text-emerald-700">Say About Us</span>
+      </h2>
+      
+      <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
+        Heartfelt words from those who have experienced the serenity and warmth of Ceylon Heart Villa
+      </p>
+    </div>
 
+    {/* REVIEWS GRID */}
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+
+      {/* Review 1 */}
+      <div className="relative bg-white/80 backdrop-blur-sm p-8 rounded-3xl border border-teal-100/50 shadow-lg hover:shadow-xl transition-shadow duration-500">
+        <div className="flex mb-4">
+          {[...Array(5)].map((_, i) => (
+            <svg key={i} className="w-5 h-5 text-amber-400 fill-current" viewBox="0 0 20 20">
+              <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+            </svg>
+          ))}
+        </div>
+        <p className="text-gray-700 leading-relaxed mb-6 italic">
+          "A true sanctuary! The rooftop yoga space and butterfly lounge offered breathtaking views of nature. The staff were incredibly warm and attentive – felt like home."
+        </p>
+        <div className="flex items-center gap-4">
+          <div className="w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center text-2xl">🌿</div>
+          <div>
+            <p className="font-semibold text-teal-950">Sarah & Family</p>
+            <p className="text-sm text-gray-600">Germany, 2025</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Review 2 */}
+      <div className="relative bg-white/80 backdrop-blur-sm p-8 rounded-3xl border border-teal-100/50 shadow-lg hover:shadow-xl transition-shadow duration-500">
+        <div className="flex mb-4">
+          {[...Array(5)].map((_, i) => (
+            <svg key={i} className="w-5 h-5 text-amber-400 fill-current" viewBox="0 0 20 20">
+              <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+            </svg>
+          ))}
+        </div>
+        <p className="text-gray-700 leading-relaxed mb-6 italic">
+          "Peaceful and luxurious. Watching peacocks and monkeys from the lounge while enjoying fresh coconut was magical. The villa is spotless and the food divine."
+        </p>
+        <div className="flex items-center gap-4">
+          <div className="w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center text-2xl">🦜</div>
+          <div>
+            <p className="font-semibold text-teal-950">James Thompson</p>
+            <p className="text-sm text-gray-600">UK, 2025</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Review 3 */}
+      <div className="relative bg-white/80 backdrop-blur-sm p-8 rounded-3xl border border-teal-100/50 shadow-lg hover:shadow-xl transition-shadow duration-500">
+        <div className="flex mb-4">
+          {[...Array(5)].map((_, i) => (
+            <svg key={i} className="w-5 h-5 text-amber-400 fill-current" viewBox="0 0 20 20">
+              <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+            </svg>
+          ))}
+        </div>
+        <p className="text-gray-700 leading-relaxed mb-6 italic">
+          "The perfect escape. Serene surroundings, exceptional hospitality, and every detail thoughtfully curated. We'll be back soon!"
+        </p>
+        <div className="flex items-center gap-4">
+          <div className="w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center text-2xl">🌴</div>
+          <div>
+            <p className="font-semibold text-teal-950">Elena Rossi</p>
+            <p className="text-sm text-gray-600">Italy, 2025</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    {/* Optional CTA */}
+    <div className="text-center">
+      <p className="text-gray-600 mb-6">Read more reviews on</p>
+      <div className="flex justify-center gap-6">
+        <a href="https://www.tripadvisor.com" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-emerald-700 font-medium">TripAdvisor</a>
+        <a href="https://www.booking.com/Share-GP8uvT" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-emerald-700 font-medium">Booking.com</a>
+      </div>
+    </div>
+  </div>
+</section>
 
 {/* Compact & Creative FAQ Section - Tropical Minimalist Style */}
 <section className="relative py-16 bg-white overflow-hidden">

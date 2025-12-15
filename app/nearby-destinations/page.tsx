@@ -172,7 +172,7 @@ export default function NearbyAttractionsPage() {
           <p className="text-2xl mb-16 text-neutral-700 max-w-3xl mx-auto leading-relaxed">
             Let our tour consultant arrange personalized excursions and transportation.
           </p>
-          <a href="/contact" className="px-14 py-6 bg-teal-600 text-white rounded-full text-xl font-medium hover:bg-teal-700 transition-all shadow-2xl inline-flex items-center justify-center gap-4">
+          <a href="/contact-us" className="px-14 py-6 bg-teal-600 text-white rounded-full text-xl font-medium hover:bg-teal-700 transition-all shadow-2xl inline-flex items-center justify-center gap-4">
             Contact Us
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />

@@ -173,7 +173,7 @@ export default function ContactPage() {
                   >
                     <div className="text-sm text-gray-600 mb-2">Contact Person</div>
                     <div className="text-xl font-bold text-gray-900 mb-1">Janith</div>
-                    <div className="text-lg text-gray-700">+94 77 155 2043</div>
+                    <div className="text-lg text-gray-700">+94 77 061 5542</div>
                   </a>
                 </div>
               </div>
@@ -215,42 +215,54 @@ export default function ContactPage() {
           </div>
 
           {/* Social Links */}
-          <div className="mt-16">
-            <div className="text-center text-sm text-gray-500 mb-6">Connect with us</div>
-            <div className="flex justify-center gap-8">
-              <a
-                href="https://www.facebook.com/ceylonheartrestaurant"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group text-center"
-              >
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 group-hover:shadow-2xl group-hover:shadow-blue-500/50 transition-all">
-                  <div className="text-white">
-                    <FacebookIcon />
-                  </div>
-                </div>
-                <div className="text-xs text-gray-600 group-hover:text-gray-900 transition-colors">
-                  ceylonheartrestaurant
-                </div>
-              </a>
-              
-              <a
-                href="https://www.instagram.com/ceylon.heart"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group text-center"
-              >
-                <div className="w-16 h-16 bg-gradient-to-br from-pink-500 via-purple-500 to-orange-500 rounded-2xl flex items-center justify-center mb-3 group-hover:scale-110 group-hover:shadow-2xl group-hover:shadow-pink-500/50 transition-all">
-                  <div className="text-white">
-                    <InstagramIcon />
-                  </div>
-                </div>
-                <div className="text-xs text-gray-600 group-hover:text-gray-900 transition-colors">
-                  @ceylon.heart
-                </div>
-              </a>
-            </div>
-          </div>
+         <div className="mt-16">
+  <div className="text-center text-sm uppercase tracking-widest text-teal-600 font-semibold mb-8">
+    Connect with us
+  </div>
+  <div className="flex justify-center gap-12">
+
+    {/* Facebook */}
+    <a
+      href="https://www.facebook.com/ceylonheartrestaurant"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group text-center"
+    >
+      <div className="relative w-20 h-20 mb-4">
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-blue-700 rounded-3xl blur-xl opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
+        <div className="relative w-full h-full bg-gradient-to-br from-blue-500 to-blue-600 rounded-3xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:shadow-2xl transition-all duration-500">
+          <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.988h-2.54v-2.713h2.54V9.845c0-2.512 1.491-3.902 3.774-3.902 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.242 0-1.63.771-1.63 1.562v1.875h2.773l-.443 2.713h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
+          </svg>
+        </div>
+      </div>
+      <div className="text-xs text-gray-600 group-hover:text-teal-700 transition-colors duration-300">
+        ceylonheartrestaurant
+      </div>
+    </a>
+
+    {/* Instagram */}
+    <a
+      href="https://www.instagram.com/ceylon.heart"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group text-center"
+    >
+      <div className="relative w-20 h-20 mb-4">
+        <div className="absolute inset-0 bg-gradient-to-br from-pink-400 via-purple-500 to-orange-500 rounded-3xl blur-xl opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
+        <div className="relative w-full h-full bg-gradient-to-br from-pink-500 via-purple-500 to-orange-500 rounded-3xl flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:shadow-2xl transition-all duration-500">
+          <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.746 1.688 4.849 4.85.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.103 3.162-1.597 4.702-4.849 4.85-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.746-1.688-4.849-4.85-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.103-3.162 1.597-4.702 4.849-4.85 1.266-.058 1.646-.07 4.85-.07zm0 2.163c-3.259 0-3.667.014-4.947.072-2.638.118-3.967 1.594-4.083 3.967-.058 1.28-.072 1.689-.072 4.947s.014 3.667.072 4.947c.116 2.373 1.445 3.849 4.083 3.967 1.28.058 1.689.072 4.947.072s3.667-.014 4.947-.072c2.638-.118 3.967-1.594 4.083-3.967.058-1.28.072-1.689.072-4.947s-.014-3.667-.072-4.947c-.116-2.373-1.445-3.849-4.083-3.967-1.28-.058-1.689-.072-4.947-.072zm0 3.837a6 6 0 110 12 6 6 0 010-12zm0 2a4 4 0 100 8 4 4 0 000-8zm6.406-6.406a1.4 1.4 0 11-2.8 0 1.4 1.4 0 012.8 0z" />
+          </svg>
+        </div>
+      </div>
+      <div className="text-xs text-gray-600 group-hover:text-teal-700 transition-colors duration-300">
+        @ceylon.heart
+      </div>
+    </a>
+
+  </div>
+</div>
         </div>
       </section>
 
@@ -303,33 +315,44 @@ export default function ContactPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 px-6 bg-gradient-to-br from-teal-600 via-emerald-600 to-teal-700">
-        <div className="max-w-4xl mx-auto text-center text-white">
-          <h2 className="text-5xl md:text-6xl font-bold mb-6">
-            Ready to Book Your Stay?
-          </h2>
-          <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto">
-            Let's start planning your perfect Sri Lankan getaway. We'll handle all the details.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://wa.me/94717393971"
-              className="inline-flex items-center justify-center gap-3 px-10 py-5 bg-white text-teal-600 rounded-2xl font-bold text-lg hover:bg-gray-50 transition-all hover:scale-105 shadow-2xl"
-            >
-              <MessageIcon />
-              Message on WhatsApp
-            </a>
-            <a
-              href="tel:+94717393971"
-              className="inline-flex items-center justify-center gap-3 px-10 py-5 border-2 border-white text-white rounded-2xl font-bold text-lg hover:bg-white/10 transition-all"
-            >
-              <PhoneIcon />
-              Call Us Now
-            </a>
-          </div>
-        </div>
-      </section>
+     <section className="py-24 px-6 bg-white">
+  <div className="max-w-4xl mx-auto text-center">
+    <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+      Ready to Book Your Stay?
+    </h2>
+    <p className="text-xl text-gray-700 mb-12 max-w-2xl mx-auto">
+      Let's start planning your perfect Sri Lankan getaway. We'll handle all the details.
+    </p>
+    
+    <div className="flex flex-col sm:flex-row gap-6 justify-center">
+      {/* WhatsApp Button */}
+      <a
+        href="https://wa.me/94717393971"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center justify-center gap-3 px-10 py-5 bg-teal-600 text-white rounded-2xl font-bold text-lg hover:bg-teal-700 hover:scale-105 transition-all duration-300 shadow-2xl"
+      >
+        {/* Replace MessageIcon with inline SVG - black on teal becomes white */}
+        <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 5.044h-.004c-1.575-.001-3.022-.603-4.089-1.595l-.293-.175-2.917.766.766-2.843-.18-.292c-1.014-1.65-1.64-3.618-1.64-5.9 0-6.082 4.953-11.03 11.043-11.03 2.952 0 5.732 1.152 7.82 3.243 2.09 2.09 3.241 4.87 3.241 7.82-.001 6.083-4.95 11.031-11.042 11.031m4.346-17.715c-3.528 0-6.427 1.19-8.74 3.144l-.292.291c-2.049 2.05-3.178 4.777-3.178 7.682 0 2.905 1.129 5.632 3.178 7.682l.291.292c2.313 2.313 5.212 3.503 8.74 3.503 3.528 0 6.427-1.19 8.74-3.144l.292-.291c2.049-2.05 3.178-4.777 3.178-7.682s-1.129-5.632-3.178-7.682c-2.313-2.313-5.212-3.503-8.74-3.503"/>
+        </svg>
+        Message on WhatsApp
+      </a>
+
+      {/* Call Button */}
+      <a
+        href="tel:+94717393971"
+        className="inline-flex items-center justify-center gap-3 px-10 py-5 bg-gray-900 text-white rounded-2xl font-bold text-lg hover:bg-gray-800 hover:scale-105 transition-all duration-300 shadow-2xl"
+      >
+        {/* Replace PhoneIcon with inline SVG */}
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+        </svg>
+        Call Us Now
+      </a>
+    </div>
+  </div>
+</section>
     </div>
   );
 }
