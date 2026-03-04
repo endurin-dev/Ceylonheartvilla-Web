@@ -8,27 +8,25 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Ceylon Heart Villa | Budget & Affordable Hotel in Unawatuna",
-    template: "%s | Ceylon Heart Villa",
+    default: "Sun Villa Unawatuna | Affordable Villa in Unawatuna",
+    template: "%s | Sun Villa Unawatuna",
   },
   description:
-    "Ceylon Heart Villa offers budget-friendly and affordable accommodation in Unawatuna near Galle, Sri Lanka. Ideal for backpackers, couples, and travelers looking for a comfortable stay close to the beach.",
+    "Sun Villa Unawatuna offers comfortable and affordable accommodation in Unawatuna near Galle, Sri Lanka. Perfect for travelers, couples, families, and backpackers seeking a relaxing stay close to the beach.",
 
   keywords: [
-    "budget hotel in Unawatuna",
-    "cheap hotel in Unawatuna",
-    "affordable hotel in Unawatuna",
-    "backpacker accommodation Unawatuna",
-    "Unawatuna budget hotel",
-    "Unawatuna budget hotel deals",
-    "budget accommodation in Unawatuna",
-    "cheap accommodation in Unawatuna",
-    "budget hotel near Unawatuna beach",
-    "budget hotel in Galle",
-    "cheap hotels in Galle Sri Lanka",
-    "villa accommodation in Unawatuna",
-    "Sri Lanka budget villa",
-    "Ceylon Heart Villa",
+    "affordable villa in Unawatuna",
+    "budget accommodation Unawatuna",
+    "Unawatuna villa",
+    "cheap stay in Unawatuna",
+    "Unawatuna guest house",
+    "villa near Unawatuna beach",
+    "accommodation in Unawatuna",
+    "Unawatuna Sri Lanka villa",
+    "budget villa Galle",
+    "Sun Villa Unawatuna",
+    "Unawatuna affordable hotel",
+    "family friendly villa Unawatuna",
   ],
 
   robots: {
@@ -39,28 +37,28 @@ export const metadata: Metadata = {
   viewport: "width=device-width, initial-scale=1",
 
   openGraph: {
-    title: "Ceylon Heart Villa | Budget Hotel in Unawatuna, Sri Lanka",
+    title: "Sun Villa Unawatuna | Affordable Villa in Unawatuna, Sri Lanka",
     description:
-      "Affordable and comfortable villa accommodation in Unawatuna near Galle. Perfect for budget travelers and backpackers visiting Sri Lanka.",
-    url: "https://www.ceylonheartvilla.com",
-    siteName: "Ceylon Heart Villa",
+      "Comfortable and budget-friendly villa accommodation in Unawatuna near Galle. Ideal for travelers visiting Sri Lanka's beautiful southern coast.",
+    url: "https://www.sunvillaunawatuna.com", // ← Replace with your actual domain
+    siteName: "Sun Villa Unawatuna",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/images/villa-exterior.webp",
+        url: "/images/villa-exterior.webp", // ← Update to your actual image if needed
         width: 1200,
         height: 630,
-        alt: "Ceylon Heart Villa in Unawatuna",
+        alt: "Sun Villa Unawatuna in Unawatuna",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Ceylon Heart Villa | Budget Hotel in Unawatuna",
+    title: "Sun Villa Unawatuna | Affordable Villa in Unawatuna",
     description:
-      "Stay at Ceylon Heart Villa, a budget-friendly villa in Unawatuna near Galle, Sri Lanka.",
+      "Stay at Sun Villa Unawatuna, a comfortable and affordable villa in Unawatuna near Galle, Sri Lanka.",
     images: ["/images/villa-exterior.webp"],
   },
 };

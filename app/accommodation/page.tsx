@@ -8,7 +8,7 @@ export default function AccommodationPage() {
         <div className="absolute inset-0">
           <img 
             src="/accommodation/villa-exterior.webp" 
-            alt="Panoramic rooftop terrace at Ceylon Heart Villa"
+            alt="Panoramic rooftop terrace at Sunvilla Unawatuna"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
@@ -16,8 +16,8 @@ export default function AccommodationPage() {
 
         <div className="relative z-10 h-full flex flex-col justify-center items-center text-center text-white px-6">
           <h1 className="text-7xl md:text-9xl font-[var(--font-serif)] font-extralight tracking-tight mb-6">
-            Ceylon Heart<br />
-            <span className="italic text-teal-300">Villa</span>
+            Sunvilla<br />
+            <span className="italic text-teal-300">Unawatuna</span>
           </h1>
           <p className="text-2xl md:text-3xl font-light tracking-wider max-w-5xl opacity-95">
             A grand colonial rooftop retreat with panoramic views and timeless elegance
@@ -37,7 +37,7 @@ export default function AccommodationPage() {
             Your Exclusive Rooftop Sanctuary
           </h2>
           <p className="text-xl md:text-2xl text-neutral-600 leading-relaxed max-w-4xl mx-auto mb-20">
-            Ceylon Heart Villa is a luxurious 11-bedroom colonial-style retreat featuring an expansive rooftop terrace with breathtaking panoramic views. 
+            Sunvilla Unawatuna is a luxurious 11-bedroom colonial-style retreat featuring an expansive rooftop terrace with breathtaking panoramic views. 
             Fully staffed and private, it offers refined elegance for large groups, celebrations, or serene escapes.
           </p>
 

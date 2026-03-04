@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="md:col-span-1">
             <h3 className="text-2xl font-[var(--font-serif)] font-light text-white mb-4">
-              Ceylon Heart Villa
+              Sunvilla Unawatuna
             </h3>
             <p className="text-sm leading-relaxed text-neutral-400">
               A serene luxury retreat nestled along Sri Lanka's southern coast, offering peace, privacy, and authentic island living.
@@ -18,7 +18,7 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex gap-4 mt-8">
               <a
-                href="www.instagram.com/ceylon.heart"
+                href="www.instagram.com/sunvilla.unawatuna"
                 aria-label="Instagram"
                 className="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center hover:border-teal-500 hover:text-teal-400 transition-all"
               >
@@ -87,8 +87,8 @@ export default function Footer() {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <a href="mailto:ceylonheart@gmail.com" className="hover:text-teal-400 transition-colors">
-                  ceylonheart@gmail.com
+                <a href="mailto:sunvillaunawatuna@gmail.com" className="hover:text-teal-400 transition-colors">
+                  sunvillaunawatuna@gmail.com
                 </a>
               </p>
               <p className="flex items-center gap-2">
@@ -116,7 +116,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-neutral-800">
         <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center text-xs text-neutral-500 gap-4">
-          <p>© {currentYear} Ceylon Heart Villa. All rights reserved.</p>
+          <p>© {currentYear} Sunvilla Unawatuna. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-teal-400 transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-teal-400 transition-colors">Terms of Service</a>

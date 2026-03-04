@@ -33,7 +33,7 @@ export default function Home() {
     </p>
     
     <p className="mt-12 text-lg font-light tracking-widest text-amber-200 uppercase drop-shadow-md">
-      — Ceylon Heart Villa
+      — Sunvilla Unawatuna
     </p>
     
     {/* Pure CSS Elegant Divider */}
@@ -80,7 +80,7 @@ export default function Home() {
     <div className="text-center mb-20 max-w-4xl mx-auto">
       <div className="inline-block mb-6">
         <span className="text-xs uppercase tracking-[0.4em] text-teal-600 font-semibold px-6 py-2 bg-teal-50 rounded-full border border-teal-200">
-          Discover Ceylon Heart Villa
+          Discover Sunvilla Unawatuna
         </span>
       </div>
       <h2 className="text-6xl md:text-7xl font-[var(--font-serif)] font-light text-teal-950 leading-[1.1] mb-8">
@@ -458,7 +458,7 @@ export default function Home() {
         <div className="relative rounded-3xl overflow-hidden shadow-2xl">
           <img
             src="/images/yoga01.webp"
-            alt="Rooftop yoga space at Ceylon Heart Villa"
+            alt="Rooftop yoga space at Sunvilla Unawatuna"
             className="w-full h-[500px] md:h-[600px] object-cover transform group-hover:scale-105 transition-transform duration-700"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-teal-950/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -695,7 +695,7 @@ export default function Home() {
         <div className="relative rounded-3xl overflow-hidden shadow-2xl">
           <img
             src="/images/nature.webp"
-            alt="View of wildlife habitat from the butterfly lounge at Ceylon Heart Villa"
+            alt="View of wildlife habitat from the butterfly lounge at Sunvilla Unawatuna"
             className="w-full h-[500px] md:h-[600px] object-cover transform group-hover:scale-105 transition-transform duration-700"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-teal-950/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -866,7 +866,7 @@ export default function Home() {
       </h2>
       
       <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-        Heartfelt words from those who have experienced the serenity and warmth of Ceylon Heart Villa
+        Heartfelt words from those who have experienced the serenity and warmth of Sunvilla Unawatuna
       </p>
     </div>
 
@@ -964,7 +964,7 @@ export default function Home() {
         FAQ
       </h2>
       <p className="text-base text-neutral-600 max-w-xl mx-auto">
-        Quick answers for your Ceylon Heart Villa stay
+        Quick answers for your Sunvilla Unawatuna stay
       </p>
       <div className="mt-6 flex justify-center">
         <div className="w-32 h-px bg-gradient-to-r from-transparent via-teal-300 to-transparent"></div>

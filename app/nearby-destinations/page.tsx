@@ -14,11 +14,11 @@ export default function NearbyAttractionsPage() {
       <span className="italic text-teal-700">Attractions</span>
     </h1>
     <p className="text-2xl text-neutral-600 leading-relaxed max-w-4xl mx-auto mb-12">
-      Discover the treasures surrounding Ceylon Heart Villa in Unawatuna
+      Discover the treasures surrounding Sunvilla Unawatuna in Unawatuna
     </p>
     <p className="text-xl text-neutral-600 leading-relaxed max-w-4xl mx-auto">
       From the golden sands of Unawatuna Beach to the historic charm of Galle Fort and serene spiritual sites, 
-      Ceylon Heart Villa is perfectly positioned for unforgettable day trips and adventures. 
+      Sunvilla Unawatuna is perfectly positioned for unforgettable day trips and adventures. 
       Most attractions are just a short tuk-tuk ride away.
     </p>
   </div>

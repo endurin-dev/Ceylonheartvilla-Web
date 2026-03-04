@@ -26,7 +26,7 @@ export default function ExperiencesPage() {
               Immerse yourself in the soul of Sri Lanka — where culture, cuisine, nature, and wellness intertwine
             </p>
             <p className="text-xl italic opacity-85 max-w-3xl">
-              “Every moment at Ceylon Heart Villa is designed to connect you deeply with this magical island.”
+              “Every moment at Sunvilla Unawatuna is designed to connect you deeply with this magical island.”
             </p>
           </div>
 
@@ -61,7 +61,7 @@ export default function ExperiencesPage() {
             </h2>
 
             <p className="text-xl md:text-2xl text-gray-700 leading-relaxed max-w-5xl mx-auto">
-              Each experience at Ceylon Heart Villa is thoughtfully curated to offer you an authentic taste of Sri Lankan life — 
+              Each experience at Sunvilla Unawatuna is thoughtfully curated to offer you an authentic taste of Sri Lankan life — 
               from the vibrant spices in our kitchen to the golden sunsets over ancient hills.
             </p>
           </div>
